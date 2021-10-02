@@ -1,1 +1,17 @@
 //Basic insertion sort
+
+var arr = [44, 23, 96, 5, 7, 3]
+
+for i in 1..<arr.count{
+      let x = arr[i]
+      var y = i - 1
+      while y>=0 && arr[y] > x{
+            arr[y+1] = arr[y]
+            y = y - 1
+      }
+      arr[y+1] = x
+}
+
+print(arr)
+
+  
