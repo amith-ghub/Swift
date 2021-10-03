@@ -1,0 +1,12 @@
+//WAP to check whether the given input is a prime number or not
+
+var flag : Bool = false;
+print("Number: ")
+var num = Int(readLine()!);
+var n = num!
+for i in 2...n/2 {
+    if(n % i == 0){
+    flag = true
+    break;
+    }
+}
