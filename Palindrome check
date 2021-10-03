@@ -1,1 +1,20 @@
 // Check whether the given number is a palindrome or not
+
+var reverse = 0
+var remainder = 0
+print(" Input:")
+var number = Int(readLine()!)
+var x = number!
+var y = number!
+while x != 0 {
+    remainder = x % 10
+    reverse = reverse * 10 + remainder
+    x /= 10
+}
+if(y == reverse) {
+    print("\(y) is a palindrome")
+}
+else {
+    print("\(y) is not a palindrome")
+}
+
