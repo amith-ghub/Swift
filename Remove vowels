@@ -5,4 +5,4 @@ var str = String(readLine()!)
 
 let vowels: Set<Character> = ["a", "e", "i", "o", "u", "A", "E", "I", "O", "U"]
 str.removeAll(where: { vowels.contains($0) } )
-
+print(str)
