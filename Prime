@@ -10,3 +10,8 @@ for i in 2...n/2 {
     break;
     }
 }
+if flag == false {
+    print("\(n) is prime!");
+} else {
+    print("\(n) is not prime!");
+}
